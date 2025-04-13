@@ -1,0 +1,67 @@
+.composition {
+    /*Добавьте свойства определяющие размер блока и относительную позицию*/
+    width: 600px;
+    height:400px;
+    position: relative;
+    background-image: url("img/bg.jpg");
+  }
+  
+  .comp-item {
+    /*установите абсолютную позицию*/
+    position: absolute;
+  }
+  
+  .comp-item.planet-1 {
+    /*сделайте отступ сверху и слева и установите значения слоя равного 1*/
+    top: 23px;
+    left:186px;
+    z-index: 1;
+
+  }
+  
+  .comp-item.planet-2 {
+    /*сделайте отступ сверху и слева и установите значения слоя равного 2*/
+    top: 66px;
+    left:51px;
+    z-index: 2;
+
+  }
+  
+  .comp-item.planet-3 {
+    /*сделайте отступ сверху и слева и установите значения слоя равного 4*/
+    top: 139px;
+    left:145px;
+   z-index: 4;
+
+  }
+  
+  .comp-item.asteroid {
+    /*сделайте отступ сверху и справа*/
+    top: 80px;
+    left:110px;
+   
+    
+  }
+  
+  .comp-item.spaceship {
+     /*сделайте отступ сверху и слева и установите значения слоя равного 3*/
+     top: 150px;
+    left:140px;
+    z-index:31;
+
+  }
+
+  
+  .comp-item.ufo {
+    top: 293px;
+    left:117px;
+    z-index: 5;
+
+  }
+  
+  .comp-item.superman {
+     /*сделайте отступ снизу и справа*/
+       bottom: 0;
+       right:36px;
+
+  }
